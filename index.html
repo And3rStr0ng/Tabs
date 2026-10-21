@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tabs</title>
+</head>
+
+<body>
+    <div class="tarjeta">
+        <!-- Botones de pestañas -->
+        <div class="tab-buttons">
+            <button class="tab-btn active" onclick="cambiarTab(event, 'tab1')">Primera Pestaña</button>
+            <button class="tab-btn" onclick="cambiarTab(event, 'tab2')">Segunda Pestaña</button>
+            <button class="tab-btn" onclick="cambiarTab(event, 'tab3')">Tercera Pestaña</button>
+            <button class="tab-btn" onclick="cambiarTab(event, 'tab4')">Cuarta Pestaña</button>
+        </div>
+        <br>
+        <!-- Contenidos de las pestañas -->
+        <div id="tab1" class="tab-content active">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quos cupiditate iusto, rem a, molestias consequuntur nobis eligendi commodi, cum earum culpa! Ullam sunt sit libero. Quas dolorum velit ullam?</p>
+        </div>
+        <div id="tab2" class="tab-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur, vero dolorum natus, officiis suscipit iusto nisi laborum aperiam rerum, maiores quisquam cumque facilis praesentium. Id necessitatibus accusamus deleniti aut?</p>
+        </div>
+        <div id="tab3" class="tab-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsa architecto tempora ullam assumenda voluptatem omnis iure vitae quaerat, dolorum facere saepe enim blanditiis odio obcaecati at, ipsum, beatae a?</p>
+        </div>
+        <div id="tab4" class="tab-content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, cum! Soluta deserunt vitae non, a quae praesentium at culpa odit dolorum. Aspernatur soluta dolor labore corporis veniam ut quidem ipsam.</p>
+        </div>
+    </div>
+    <script src="js/scrips.js"></script>
+</body>
+
+</html>
